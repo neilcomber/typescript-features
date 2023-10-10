@@ -17,3 +17,9 @@ console.log(carMakers.map((car: string): string => {
   return car.concat('beef');
 }))
 
+
+const importantDates: (Date | string)[] = [new Date(), '2030-20-10'];
+
+importantDates.push('444444444');
+
+importantDates.push(new Date())
